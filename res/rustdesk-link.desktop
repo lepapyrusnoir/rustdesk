@@ -2,7 +2,7 @@
 Name=Studio Le Papyrus Noir
 NoDisplay=true
 MimeType=x-scheme-handler/lepapyrusnoir;
-TryExec=rustdesk
+TryExec=lepapyrusnoir
 Exec=rustdesk %u
 Icon=rustdesk
 Terminal=false
