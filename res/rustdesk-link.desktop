@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Studio Le Papyrus Noir
 NoDisplay=true
-MimeType=x-scheme-handler/rustdesk;
+MimeType=x-scheme-handler/lepapyrusnoir;
 TryExec=rustdesk
 Exec=rustdesk %u
 Icon=rustdesk
