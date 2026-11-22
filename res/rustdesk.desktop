@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=RustDesk
+Name=Studio Le Papyrus Noir
 GenericName=Remote Desktop
 Comment=Remote Desktop
 Exec=rustdesk %u
