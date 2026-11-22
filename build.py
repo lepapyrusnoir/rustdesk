@@ -957,7 +957,7 @@ def build_flutter_dmg(version, features):
 
 def build_flutter_arch_manjaro(version, features):
     if not skip_cargo:
-        system2(f'cargo build --locked --features {features} --lib --release')
+        system2(f'cargo build --features {features} --lib --release')
     ffi_bindgen_function_refactor()
     os.chdir('flutter')
     system2('flutter build linux --release')
