@@ -2,7 +2,7 @@
 Name=Studio Le Papyrus Noir
 GenericName=Remote Desktop
 Comment=Remote Desktop
-Exec=rustdesk %u
+Exec=lepapyrusnoir %u
 Icon=rustdesk
 Terminal=false
 Type=Application
