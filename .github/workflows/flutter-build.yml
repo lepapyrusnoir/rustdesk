@@ -680,7 +680,7 @@ jobs:
             cp ./target/release/lepapyrusnoir.exe ./target/release/rustdesk.exe
           fi
           mv ./target/release/rustdesk.exe ./Release/rustdesk.exe
-          mv ./target/release/rustdesk.exe ./Release/rustdesk.exe
+    
           curl -LJ -o ./Release/sciter.dll https://github.com/c-smile/sciter-sdk/raw/master/bin.win/x32/sciter.dll
           echo "output_folder=./Release" >> $GITHUB_OUTPUT
           curl -LJ -o ./usbmmidd_v2.zip https://github.com/rustdesk-org/rdev/releases/download/usbmmidd_v2/usbmmidd_v2.zip
