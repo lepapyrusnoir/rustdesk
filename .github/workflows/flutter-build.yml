@@ -672,9 +672,9 @@ jobs:
           # Patch sciter x86
           sed -i 's/branch = "dyn"/branch = "dyn_x86"/g' ./Cargo.toml
           cargo update -p sciter-rs --precise 674e07d3066ca9a92ced3816203ab6b652629d1e
-          cargo build --locked --features inline,vram,hwcodec --release --bins
+          cargo build --features inline,vram,hwcodec --release --bins
           mkdir -p ./Release
-          cargo build --locked --features inline,vram,hwcodec --release --bins
+          cargo build --features inline,vram,hwcodec --release --bins
           mkdir -p ./Release
           if [ -f ./target/release/lepapyrusnoir.exe ] && [ ! -f ./target/release/rustdesk.exe ]; then
             cp ./target/release/lepapyrusnoir.exe ./target/release/rustdesk.exe
